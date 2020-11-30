@@ -1,5 +1,5 @@
 def register(username, password, check_password):
-    # "Пароль начинается с заглавной буквы, состоит из цифр и букв, длина больше 10 символом"
+    # "Пароль начинается с заглавной буквы, состоит из цифр и букв, длина больше 10 символов"
     # Validate password
     if password.istitle() and not password.isdigit() and not password.isalpha() and len(password) > 10:
         if password == check_password:
