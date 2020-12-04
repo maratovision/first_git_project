@@ -12,8 +12,9 @@
 # elif a[0].islower() and not a[-1].endswith('.'):
 #     a = a.capitalize()
 #     print(a + '.')
+#
 
-                    #Задача 3
+                    #Задача 2
 # a = str(input('Введите свой номер:'))
 #
 # if len(a) < 14 and a.startswith('+'):
@@ -23,8 +24,10 @@
 #     print('+996' + a)
 # elif len(a) == 9 and a[0].isdigit():
 #     print('+996' + a)
+# elif len(a) < 13 and a.startswith("996"):
+#     print("+" + a)
 
-            #Задача 4
+            #Задача 3
 # n = int(input())
 # i = 1
 # sum = 0
@@ -34,11 +37,11 @@
 #     i += 1
 # print(sum)
                     #Задача 4
-a = int(input())
-b = int(input())
-year = 0
-while b > a:
-    year += 1
-    a = a * 3
-    b = b * 2
- print(year)
+# a = int(input())
+# b = int(input())
+# year = 0
+# while b > a:
+#     year += 1
+#     a = a * 3
+#     b = b * 2
+#  print(year)
